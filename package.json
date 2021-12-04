@@ -1,0 +1,32 @@
+{
+  "name": "postman-to-openapi-json-extended",
+  "version": "1.0.0",
+  "description": "Convert Postman collection to OpenAPI Specs with extended components",
+  "main": "./bin/index.js",
+  "scripts": {
+    "build": "npm install -g ."
+  },
+  "bin": {
+    "p2ojx": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinjalrk2k/postman-to-openapi-json-extended.git"
+  },
+  "author": "Kinjal Raykarmakar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kinjalrk2k/postman-to-openapi-json-extended/issues"
+  },
+  "homepage": "https://github.com/Kinjalrk2k/postman-to-openapi-json-extended#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^8.3.0",
+    "generate-schema": "^2.6.0",
+    "json-schema-ref-parser": "^1.0.3",
+    "lodash": "^4.17.21",
+    "obj-flatten": "^2.0.6",
+    "postman-to-openapi": "^1.19.0",
+    "yamljs": "^0.3.0"
+  }
+}
