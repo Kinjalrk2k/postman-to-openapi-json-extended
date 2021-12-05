@@ -1,3 +1,4 @@
 {
-  "defaultTag": "General"
+  "defaultTag": "General",
+  "folders": { "separator": " ⇀ " }
 }
