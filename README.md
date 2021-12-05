@@ -43,11 +43,11 @@ Extract request-response schemas paths from a exported postman collection. These
 }
 ```
 
-#### Build
+### Build
 
 Build the `openapi.json` file with all the data coming on from the postman collection file along with the extended schema
 
-### Steps
+#### Steps
 
 - Create a configuration file. Name it: `config.p2ojx.json`. For more info about configurations, read [here](https://joolfe.github.io/postman-to-openapi/#options)
 - Run: `p2ojx build` to extact from the `.postman_collection.json` and `config.p2ojx.json` file present in the working directory.
