@@ -12,11 +12,11 @@ npm install -g postman-to-openapi-json-extended
 
 ## Usage
 
-![help](./docs/help.png)
+![help](./assets/help.png)
 
-![extract](./docs/extract.png)
+![extract](./assets/extract.png)
 
-![build](./docs/build.png)
+![build](./assets/build.png)
 
 ### Extract
 
