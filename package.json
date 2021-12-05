@@ -2,7 +2,7 @@
   "name": "postman-to-openapi-json-extended",
   "version": "1.0.0",
   "description": "Convert Postman collection to OpenAPI Specs with extended components",
-  "main": "./bin/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "npm install -g ."
   },

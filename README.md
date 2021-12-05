@@ -58,3 +58,9 @@ Build the `openapi.json` file with all the data coming on from the postman colle
 ### Extensibility
 
 Other components/schemas can be added in alongside the extracted request/response schemas. Each one should be point in the correct path and should be withon `.json` files in the `schemas` directory. Check out the _`schemasa/_extracted.json`_ to understand correct format
+
+### Limitations
+
+- Doesn't track changes on the Postman collections
+- APIs deleted in the Postman collections aren't reflected in the already extracted schemas (Requires manual delete)
+- API paths modified in the Postman collections, aren't picked up seperately. Thy're treated as new paths
